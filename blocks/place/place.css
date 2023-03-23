@@ -1,0 +1,11 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 48px 32px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title website"
+    "image paragraph"
+    "image paragraph";
+}

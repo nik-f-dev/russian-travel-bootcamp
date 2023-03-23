@@ -1,0 +1,15 @@
+.place__title {
+  justify-self: stretch;
+  align-self: end;
+  grid-area: title;
+  width: 440px;
+  height: 152px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
