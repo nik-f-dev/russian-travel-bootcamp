@@ -1,0 +1,18 @@
+.place__paragraph-item {
+  margin: 0;
+  padding: 0;
+}
+
+.place__paragraph-item:nth-child(2n) {
+  margin-top: 26px;
+}
+
+@media screen
+  and (max-width: 1024px) {
+    .place__paragraph-item {
+      font-size: 16px;
+  }
+    .place__paragraph-item:nth-child(2n) {
+    margin-top: 25px;
+  }
+}

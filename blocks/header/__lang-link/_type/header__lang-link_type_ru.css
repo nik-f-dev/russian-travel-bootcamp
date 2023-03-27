@@ -1,6 +1,26 @@
 .header__lang-link_type_ru {
-  position: absolute;
-  right: 47px;
-  bottom: 0;
+  display: flex;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
   text-decoration: underline;
+  flex-wrap: wrap;
+  align-content: end;
+}
+
+@media screen
+  and (max-width: 700px) {
+    .header__lang-link_type_ru {
+      font-size: 20px;
+      line-height: 24px;
+  }
+}
+
+@media screen
+  and (max-width: 320px) {
+    .header__lang-link_type_ru {
+      font-size: 18px;
+      line-height: 20px;
+  }
 }

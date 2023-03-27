@@ -1,0 +1,7 @@
+.lead__container {
+  margin: 0 auto;
+  object-fit: contain;
+  max-width: 984px;
+  max-height: 615px;
+}
+

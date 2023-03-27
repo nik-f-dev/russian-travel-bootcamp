@@ -1,7 +1,21 @@
 .header__lang-link {
+  display: flex;
   color: #fff;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 28px;
   text-decoration: none;
+}
+
+@media screen
+  and (max-width: 700px) {
+    .header__lang-link {
+      font-size: 20px;
+      line-height: 24px;
+  }
+}
+
+@media screen
+  and (max-width: 320px) {
+    .header__lang-link {
+      font-size: 18px;
+      line-height: 20px;
+  }
 }

@@ -1,0 +1,17 @@
+.cover__container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 92px;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen
+  and (max-width: 320px) {
+    .cover__container {
+      margin-bottom: 66px;
+  }
+}
