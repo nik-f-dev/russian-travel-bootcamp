@@ -1,27 +1,4 @@
 .header__lang-link_type_en {
-  display: flex;
-  color: #fff;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 28px;
   text-decoration: none;
-  flex-wrap: wrap;
-  align-content: end;
   margin-left: 18px;
-}
-
-@media screen
-  and (max-width: 700px) {
-    .header__lang-link_type_en {
-      font-size: 20px;
-      line-height: 24px;
-  }
-}
-
-@media screen
-  and (max-width: 320px) {
-    .header__lang-link_type_en {
-      font-size: 18px;
-      line-height: 20px;
-  }
 }
