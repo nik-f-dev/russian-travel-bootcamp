@@ -10,8 +10,7 @@
   z-index: 1;
 }
 
-@media screen
-  and (max-width: 450px)
+@media screen and (max-width: 450px)
   {
     .cover__subtitle {
     max-width: 288px;

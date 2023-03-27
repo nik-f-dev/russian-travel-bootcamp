@@ -9,8 +9,7 @@
   color: #fff;
 }
 
-@media screen
-  and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .cover__container {
       margin-bottom: 66px;
   }

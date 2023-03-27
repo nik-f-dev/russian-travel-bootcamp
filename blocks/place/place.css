@@ -10,49 +10,42 @@
     "image paragraph";
 }
 
-@media screen
-  and (max-width: 1024px) {
-    .place {
-      grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
-      gap: 48px 32px;
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
+    column-gap: 32px;
   }
 }
 
-@media screen
-  and (max-width: 768px) {
-    .place {
-      max-width: 720px;
-      grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
-      gap: 48px 28px;
-      margin-bottom: 72px;
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
+    column-gap: 28px;
+    margin-bottom: 72px;
   }
 }
 
-@media screen
-  and (max-width: 685px) {
-    .place {
-      grid-template-columns: minmax(auto, 685px);
-      grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "paragraph";
-      row-gap: 32px;
-      margin-bottom: 50px;
+@media screen and (max-width: 685px) {
+  .place {
+    grid-template-columns: minmax(auto, 685px);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "paragraph";
+    row-gap: 32px;
+    margin-bottom: 50px;
   }
 }
 
-@media screen
-  and (max-width: 320px) {
-    .place {
-      grid-template-columns: minmax(auto, 320px);
-      grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "paragraph";
-      row-gap: 32px;
-      margin-bottom: 50px;
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: minmax(auto, 320px);
   }
 }
 

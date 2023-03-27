@@ -4,22 +4,23 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 28px;
-  flex-wrap: wrap;
-  align-content: end;
+  text-decoration: none;
 }
 
-@media screen
-  and (max-width: 700px) {
-    .header__lang-link {
-      font-size: 20px;
-      line-height: 24px;
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 700px) {
+  .header__lang-link {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
-@media screen
-  and (max-width: 320px) {
-    .header__lang-link {
-      font-size: 18px;
-      line-height: 20px;
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
   }
 }

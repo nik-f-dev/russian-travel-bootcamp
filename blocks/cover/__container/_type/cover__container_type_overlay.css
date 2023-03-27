@@ -1,4 +1,4 @@
-.cover__overlay::before {
+.cover__container_type_overlay::before {
   content: "";
   position: absolute;
   background: #2A2C2F;
@@ -9,6 +9,6 @@
   left: 0;
 }
 
-.cover__overlay:hover::before {
+.cover__container_type_overlay:hover::before {
   opacity: 0.8;
 }

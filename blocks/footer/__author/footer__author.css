@@ -5,28 +5,20 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  text-align: right;
 }
 
-@media screen
-  and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .footer__author {
       margin-top: 50px;
+      text-align: left;
   }
 }
 
-@media screen
-  and (max-width: 510px) {
+@media screen and (max-width: 510px) {
     .footer__author {
-      margin-bottom: 0;
       line-height: 14px;
       margin-top: 0px;
   }
 }
 
-@media screen
-  and (max-width: 320px) {
-    .footer__author {
-      margin-bottom: 0;
-      line-height: 14px;
-  }
-}
