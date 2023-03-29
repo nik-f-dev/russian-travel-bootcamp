@@ -9,14 +9,21 @@
   text-align: left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 685px) {
+  .place__title {
+    font-size: 50px;
+    line-height: 54px;
+  }
+}
+
+@media screen and (max-width: 460px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
